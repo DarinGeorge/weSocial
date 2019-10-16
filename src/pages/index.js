@@ -5,7 +5,13 @@ const Index = () => (
       <h1 className='title'>weSocial</h1>
     </div>
 
-    <Button color='secondary'>YER</Button>
+    <Button variant='contained' color='primary'>
+      YER Hi Kai! Dashboard will be here upon login
+    </Button>
+
+    <Button variant='contained' color='secondary'>
+      Check out these dope ass underscore buttons doe
+    </Button>
 
     <style jsx>{`
       .hero {
