@@ -5,7 +5,7 @@ const Index = () => (
       <h1 className='title'>weSocial</h1>
     </div>
 
-    <Button color='primary'>YER</Button>
+    <Button color='secondary'>YER</Button>
 
     <style jsx>{`
       .hero {

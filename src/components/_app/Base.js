@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Nav from '../Nav';
+import Nav from '../Nav/index';
 import { CssBaseline, Container } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
-import { ThemeProvider } from '@material-ui/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
   palette: {
@@ -29,9 +29,7 @@ export const Base = ({ children }) => {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <Nav />
-        <Container maxWidth='xl'>
-          <ThemeProvider>{children}</ThemeProvider>
-        </Container>
+        <Container maxWidth='xl'>{children}</Container>
       </ThemeProvider>
     </>
   );
