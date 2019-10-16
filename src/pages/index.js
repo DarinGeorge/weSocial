@@ -1,8 +1,11 @@
+import { Button } from '@material-ui/core';
 const Index = () => (
   <>
     <div className='hero'>
       <h1 className='title'>weSocial</h1>
     </div>
+
+    <Button color='primary'>YER</Button>
 
     <style jsx>{`
       .hero {
