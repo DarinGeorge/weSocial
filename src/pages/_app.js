@@ -1,6 +1,5 @@
 import App from 'next/app';
 import { Base } from '../components/_app/Base';
-import { CssBaseline } from '@material-ui/core';
 
 class MyApp extends App {
   // Only uncomment this method if you have blocking data requirements for
@@ -19,7 +18,6 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
     return (
       <Base>
-        <CssBaseline />
         <Component {...pageProps} />
       </Base>
     );
